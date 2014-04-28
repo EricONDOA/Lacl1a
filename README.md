@@ -2,4 +2,4 @@ Lacl1a
 ======
 
 new repo
-Nouvelle projet
+Nouveau projet
