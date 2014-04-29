@@ -6,7 +6,6 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-    <module>fr.lacl.lacl1a.client</module>
     <module>live-bus-client</module>
   </modules>
 </project>
