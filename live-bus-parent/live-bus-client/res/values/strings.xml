@@ -2,5 +2,6 @@
 <resources>
     <string name="app_name">LiveBusActivity</string>
     <string name="WebViewConetnt">WebViewActivity</string>
+    <string name="msg">welcome to the webview</string>
 	
 </resources>

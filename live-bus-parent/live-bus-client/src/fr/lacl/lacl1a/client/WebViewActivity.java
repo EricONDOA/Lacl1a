@@ -3,6 +3,7 @@ package fr.lacl.lacl1a.client;
 import android.app.Activity;
 import android.os.Bundle;
 import android.webkit.WebView;
+import android.webkit.WebViewClient;
 
 public class WebViewActivity extends Activity {
 	
@@ -14,7 +15,7 @@ public class WebViewActivity extends Activity {
  
 		webView = (WebView) findViewById(R.id.webViewLacl);
 		webView.getSettings().setJavaScriptEnabled(true);
-		webView.loadUrl("http://www.lacl.fr");
+		webView.loadUrl("http://www.youtube.com");
  
 	}
  
