@@ -5,7 +5,7 @@
   <artifactId>live-bus-parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <properties><android.sdk.path>C:\lacl\adt-bundle-windows-x86_64-20131030\sdk</android.sdk.path></properties>
+  <properties><android.sdk.path>C:\adt-bundle-windows-x86_64-20140321\sdk</android.sdk.path></properties>
   <modules>
     <module>live-bus-client</module>
   </modules>
