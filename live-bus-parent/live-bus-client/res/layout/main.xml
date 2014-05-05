@@ -8,6 +8,13 @@
         android:id="@+id/buttonLacl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go to http://www.lacl.fr" />
+        android:text="@string/msg" />
+    
+     <WebView
+        android:id="@+id/webviewLacl"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    
+   
  
 </LinearLayout>

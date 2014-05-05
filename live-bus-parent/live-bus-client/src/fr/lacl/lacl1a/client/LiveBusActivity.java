@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.webkit.WebView;
+import android.webkit.WebViewClient;
 import android.widget.Button;
 
 
@@ -15,21 +17,19 @@ import android.widget.Button;
  *
  */
 public class LiveBusActivity extends Activity {
-	private Button button;
+
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
-		final Context context = this;
+		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
+		
+			String url = "http://www.lacl.fr";
+			WebView view = (WebView) findViewById(R.id.webviewLacl);
+			view.getSettings().setJavaScriptEnabled(true);
+			view.loadUrl(url);
+			view.setWebViewClient(new WebViewClient());
+			
 
-		Button button = (Button) findViewById(R.id.buttonLacl);
-		button.setOnClickListener(new OnClickListener() {
-
-			public void onClick(View arg0) {
-				Intent intent = new Intent(context, WebViewActivity.class);
-				startActivity(intent);
-			}
-
-		});
 	}
 }
