@@ -12,7 +12,7 @@ public class WebViewActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.webview);
  
-		webView = (WebView) findViewById(R.id.webView1);
+		webView = (WebView) findViewById(R.id.webViewLacl);
 		webView.getSettings().setJavaScriptEnabled(true);
 		webView.loadUrl("http://www.lacl.fr");
  

@@ -22,7 +22,7 @@ public class LiveBusActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.main);
 
-		Button button = (Button) findViewById(R.id.buttonUrl);
+		Button button = (Button) findViewById(R.id.buttonLacl);
 		button.setOnClickListener(new OnClickListener() {
 
 			public void onClick(View arg0) {
