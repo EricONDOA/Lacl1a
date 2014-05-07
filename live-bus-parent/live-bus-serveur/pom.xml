@@ -1,0 +1,42 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>fr.lacl.lacl1a</groupId>
+    <artifactId>live-bus-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>live-bus-serveur</artifactId>
+  <packaging>war</packaging>
+  
+  <dependencies>
+    <dependency>
+    <groupId>com.efsavage.jquery</groupId>
+    <artifactId>jquery-maven</artifactId>
+    <version>1.7.2</version>
+</dependency>
+  </dependencies>
+  <build>
+ 
+  <plugins>
+   
+    <plugin>
+      <groupId>com.github.searls</groupId>
+      <artifactId>jasmine-maven-plugin</artifactId>
+      <version>${jasmine-plugin-version}</version>
+      <executions>
+        <execution>
+          <goals>
+            <goal>test</goal>
+          </goals>
+        </execution>
+      </executions>
+      <configuration>
+        <!-- configuration properties will go here -->
+      </configuration>
+    </plugin>
+   
+  </plugins>
+ 
+</build>
+  
+</project>

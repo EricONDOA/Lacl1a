@@ -8,5 +8,6 @@
   <properties><android.sdk.path>C:\adt-bundle-windows-x86_64-20140321\sdk</android.sdk.path></properties>
   <modules>
     <module>live-bus-client</module>
+    <module>live-bus-serveur</module>
   </modules>
 </project>
